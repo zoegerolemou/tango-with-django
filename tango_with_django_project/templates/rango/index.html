@@ -1,6 +1,6 @@
 {% extends 'rango/base.html' %}
 
-{% load staticfiles 5}
+{% load staticfiles %}
 
 {% block title %}Index{% endblock %}
 
@@ -30,4 +30,6 @@
 	{% else %}
 		<strong>There are no pages to present.<strong>
 	{% endif %}
+
+	<p><h2>visits: {{ visits }}</h2></p>
 {% endblock %}
